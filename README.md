@@ -17,7 +17,7 @@
 - создайте и активируйте в вирутальное окружение
 - установите зависимости командой: pip install -r requirements.txt
 - примените миграции:
-python manage.py makemigrations
+python manage.py makemigrations,
 python manage.py migrate
 - cоздайте суперпользователя командой: python manage.py createsuperuser
 - ознакомьтесь с документацией: через терминал перейдите в папку documentation, выполните команду mkdocs serve и откройте в браузере http://127.0.0.1:8000/ либо ознакомьтесь с файлом docs/index.md непосредственно на GitHub
