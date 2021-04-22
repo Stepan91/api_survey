@@ -13,13 +13,12 @@ QUESTION_CHOICES = [
 class Survey(models.Model):
     title = models.CharField(max_length=200, verbose_name='Название')
     date_start = models.DateTimeField(
-        'Дата начала',
+        'date_start',
         auto_now_add=True,
         db_index=True
     )
     date_finish = models.DateTimeField(
-        'Дата окончания',
-        auto_now_add=True,
+        'date_finish',
         db_index=True
     )
     description = models.TextField(verbose_name='Описание')

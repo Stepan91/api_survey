@@ -1,0 +1,5 @@
+site_name: API_Survey
+nav:
+    - Home: index.md
+    - About: about.md
+theme: readthedocs
